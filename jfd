@@ -1,0 +1,24 @@
+set -euo pipefail
+
+usage () {
+	echo "Usage: $(basename "$0") [root] [destination]"
+}
+
+if [ $# != 2 ]; then
+	usage
+	exit 1
+fi
+
+root=$1
+destination=$2
+
+# Get first result from recursive search
+abs_destination=$(find $root -name $destination | head -n 1)
+
+if [ -d $abs_destination ] && ! [ -z $abs_destination ]; then
+	cd $abs_destination
+	echo $(pwd)
+else
+	echo "Directory \"$destination\" not found under \"$root\"!"
+fi
+
