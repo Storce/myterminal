@@ -1,5 +1,5 @@
 ## What is this repo?
-A dump of some of my terminal configs. I really like
+A dump of some of my terminal configs.
 
 ### Packages
 Just run ./packages.sh [package manager]
