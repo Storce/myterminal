@@ -12,3 +12,5 @@ Just run sudo ./packages.sh [package manager]
 
 ### Attention
 Depending on the machine, I had to manually install the newest version of NeoVim, hence the extra export line in zshrc
+
+For lazygit config, you should copy it to `~/Library/Application\ Support/lazygit/config.yml` on MacOS and `~/.config/lazygit/config.yml` on Linux.
