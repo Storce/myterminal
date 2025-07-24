@@ -1,3 +1,7 @@
+usage (){
+	echo "Usage: sudo $0 [package manager]"
+}
+
 PACKAGE_MANAGER=$1
 
 if [ $PACKAGE_MANAGER != "brew" ]; then 

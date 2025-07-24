@@ -14,5 +14,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Setup
 source jssha github-emp > /dev/null
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 clear
 echo "Welcome Back!"
