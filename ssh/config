@@ -1,0 +1,12 @@
+# OCF
+Host supernova
+	Hostname supernova.ocf.berkeley.edu
+	User storce
+	IdentityFile ~/.ssh/ocf
+	ForwardAgent yes
+Host emp
+	Hostname emp
+	User storce
+	ProxyJump supernova
+	IdentityFile ~/.ssh/ocf
+	ForwardAgent yes
