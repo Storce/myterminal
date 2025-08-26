@@ -15,5 +15,10 @@ alias cm="cmatrix"
 # Setup
 source jssha github-emp > /dev/null
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+
+# SSH Agent
+eval "$(ssh-agent -s)"
+ssh-add "$HOME/.ssh/personal" 
+
 clear
 echo "Welcome Back!"
