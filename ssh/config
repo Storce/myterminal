@@ -10,3 +10,9 @@ Host emp
 	ProxyJump supernova
 	IdentityFile ~/.ssh/ocf
 	ForwardAgent yes
+Host guanine
+	Hostname guanine
+	User storce
+	ProxyJump supernova
+	IdentityFile ~/.ssh/ocf
+	ForwardAgent yes
