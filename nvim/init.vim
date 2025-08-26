@@ -7,3 +7,4 @@ call plug#end()
 
 colorscheme kanagawa
 
+set number

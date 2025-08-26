@@ -14,4 +14,4 @@ $PACKAGE_MANAGER install \
 	lazygit \
 	bat \
 	cmatrix \
-
+	tree \
