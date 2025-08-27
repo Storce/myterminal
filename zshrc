@@ -13,7 +13,7 @@ alias vim="nvim"
 alias cm="cmatrix"
 
 # Setup
-source jssha github-emp > /dev/null
+source jssha personal > /dev/null
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # SSH Agent
