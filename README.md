@@ -2,7 +2,7 @@
 A dump of some of my terminal configs.
 
 ### Packages
-Just run sudo ./packages.sh [package manager]
+Just run sudo ./packages.sh [package manager]. If on macos, do no use sudo.
 
 ### Reminders
 1. Get kitty and run `kitten themes`, and chose kanagawa
