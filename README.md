@@ -11,6 +11,7 @@ Just run sudo ./packages.sh [package manager]. If on macos, do no use sudo.
 4. If setting up VSCode, don't forget to get the kanagawa theme too
 
 ### Attention
-Depending on the machine, I had to manually install the newest version of NeoVim, hence the extra export line in zshrc
+Depending on the machine, I had to manually install the newest version of NeoVim, hence the extra export line in zshrc.
+Also the better version of cat is called `bat` or `batcat` depending on the package repository. Make sure to check and change the alias in .zshrc when necessary.
 
 For lazygit config, you should copy it to `~/Library/Application\ Support/lazygit/config.yml` on MacOS and `~/.config/lazygit/config.yml` on Linux.
