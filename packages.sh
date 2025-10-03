@@ -15,3 +15,6 @@ $PACKAGE_MANAGER install \
 	bat \
 	cmatrix \
 	tree \
+	zoxide \
+	fd \
+
